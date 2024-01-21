@@ -82,9 +82,9 @@ class Play extends Phaser.Scene {
             rocket.x + rocket.width > ship.x && 
             rocket.y < ship.y + ship.height &&
             rocket.height + rocket.y > ship. y) {
-            return true;
+            return true
         } else {
-            return false;
+            return false
         }
     }
     
